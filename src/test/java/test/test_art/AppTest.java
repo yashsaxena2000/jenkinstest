@@ -14,7 +14,8 @@ public class AppTest
     {
     	System.setProperty("webdriver.gecko.driver", "C:\\gecko\\geckodriver.exe");
     	WebDriver driver = new FirefoxDriver();
-    	driver.get("http://www.google.com");
+    	driver.get("http://www.yahoo.com");
+	
     }
     
 	
