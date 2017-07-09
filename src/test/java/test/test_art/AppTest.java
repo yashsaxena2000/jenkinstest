@@ -12,9 +12,9 @@ public class AppTest
     @Test
     public void testing()
     {
-    	System.setProperty("webdriver.gecko.driver", "C:\\gecko\\geckodriver.exe");
+    	System.setProperty("webdriver.gecko.driver", "D:\\geckodriver\\geckodriver.exe");
     	WebDriver driver = new FirefoxDriver();
-    	driver.get("http://www.yahoo.com");
+    	driver.get("http://www.google.com");
 	
     }
     
